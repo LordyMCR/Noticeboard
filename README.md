@@ -16,7 +16,7 @@ The applications and tools used to create and run this project are:
 
 Download the repository and place the "noticeboard" subfolder in your "htdocs" folder of your XAMPP installation location (usually *C:\username\xampp\htdocs*).
 
-Run XAMPP and start the "Apache" and "MySQL" modules. Then locate to **http://localhost/phpmyadmin/** in your browser and import the "noticeboard.sql" file located in the repository to create the database of noticeboard posts.
+Run XAMPP and start the "Apache" and "MySQL" modules. Then locate to **http://localhost/phpmyadmin/** in your browser, create a new database called "noticeboard" and import the "noticeboard.sql" file, located in the repository, to create the database of noticeboard posts.
 
 Locate to **http://localhost/noticeboard/index.php** to access the homepage.
 ## Known Issues/Bugs
