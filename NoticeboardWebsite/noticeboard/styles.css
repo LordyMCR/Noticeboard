@@ -1,0 +1,113 @@
+body {
+    font-size: 100%;
+}
+
+#header {
+    text-align: left;
+}
+
+#timeReal {
+    float: right;
+    padding-top: 9px;
+}
+
+#fontSerif {
+    font-family: 'Times New Roman', serif;
+}
+
+#fontMonospace {
+    font-family: 'Lucida Console', monospace;
+}
+
+#fontCursive {
+    font-family: cursive;
+}
+
+#fontFantasy {
+    font-family: fantasy;
+}
+
+.nav-item:hover {
+    color: rgb(2, 131, 252);
+}
+
+p:link {
+    color: rgb(2, 131, 252);
+}
+
+.cardStyle {
+    background-color: #F8F9FA;
+}
+ 
+.card-title {
+    font-size: 160%;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+#signup,
+#signin,
+#newpost,
+#editpost,
+#edituser {
+    margin: auto;
+    width: 60%;
+}
+
+label {
+    font-weight: bold;
+}
+
+#postsRadio1V1, #postsRadio2V1, #usersRadio1V1, #usersRadio2V1 {
+    float: right;
+}
+
+#sortV1 {
+    float: left;
+    width: 130px!important;
+}
+
+#sortBtnV1 {
+    margin-left: 5px;
+}
+
+#postsRadio1V1, #usersRadio1V1, #usersRadio2V1 {
+    margin-right: 5px
+}
+
+#sortV2 {
+    width: 130px!important;
+    margin-right: 5px;
+
+}
+
+#postsRadio1V2, #usersRadio1V2, #usersRadio2V2 {
+    margin-right: 5px
+}
+
+#sortV2, #sortBtnV2, #usersRadio1V2, #usersRadio2V2, #nationaliseBtn {
+    margin-top: 5px;
+}
+
+thead, #apiTableHeader {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th,
+td,
+.form-control,
+.form-control:active,
+.tableImgCell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tableImg {
+    height: 100px;
+}
